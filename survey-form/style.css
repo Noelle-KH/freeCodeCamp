@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  background-image: url("./resource/dogs-picture.jpg");
+  background-size: cover;
+  background-position: 60% center;
+  backdrop-filter: blur(2px);
+}
+
+.container {
+  width: 70%;
+  margin: 50px auto;
+  padding: 30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
+  background-repeat: no-repeat;
+}
+
+#title,
+#description {
+  text-align: center;
+}
+
+#title {
+  color: #344e9c;
+  font-size: 40px;
+}
+
+#description {
+  padding: 20px;
+  line-height: 1.7;
+  color: #485c69;
+}
+
+#survey-form {
+  margin-top: 30px;
+}
+
+.information {
+  border: none;
+  font-size: 20px;
+  position: relative;
+}
+
+.information legend h2{
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #344e9c;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.question p {
+  margin-top: 30px;
+}
+
+.question label {
+  line-height: 1.7;
+}
+
+.question input[type="text"],
+.question input[type="number"],
+.question input[type="email"],
+.question #dropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  display: block;
+}
+
+.question input[type="text"]:focus,
+.question input[type="number"]:focus,
+.question input[type="email"]:focus,
+.question #dropdown,
+.question textarea:focus {
+  outline: 1px solid #eee;
+}
+
+#confident-independence,
+#neuroticism-dependence,
+#optimism-adapt,
+input[type="checkbox"] {
+  margin-left: 20px;
+  width: 20px;
+}
+
+.question small {
+  font-size: 14px;
+}
+
+.question textarea {
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 40px;
+  padding-top: 5px;
+  padding-left: 5px;
+  resize: vertical;
+}
+
+.respond-message {
+  text-align: center;
+  margin: 50px 0 30px;
+  color: #485c69;
+  text-shadow: 1px 1px 0 #a9d3ff;
+}
+
+#submit {
+  width: 100%;
+  line-height: 50px;
+  cursor: pointer;
+  background-color: #344e9c;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #a9d3ff;
+}
+
+#submit:hover {
+  background-color: #a9d3ff;
+  color: #000;
+  border: 1px solid #344e9c;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <!-- h1 id=title -->
+      <h1 id="title">Dog Temperament Questionnaire</h1>
+      <!-- p id=description -->
+      <div id="description">
+        Fill out your dog's attitude, personality and behavior. The feedback
+        gotten from this questionnaire can be used to understand the dog
+        temperament and provide recommendations if necessary.
+      </div>
+      <!-- form id=survey-form -->
+      <form id="survey-form">
+        <fieldset class="information">
+          <legend>
+            <h2>Dog Information</h2>
+          </legend>
+          <!-- input type=text id name required placeholder-->
+          <div class="question">
+            <label for="dog-name">Name:</label>
+            <input
+              type="text"
+              name="dog-name"
+              id="dog-name"
+              placeholder="Enter dog name"
+              required
+            />
+          </div>
+          <!-- input type=number id checked min max  placeholder-->
+          <div class="question">
+            <label for="number" id="number-label">Age:</label>
+            <input
+              type="number"
+              name="age"
+              id="number"
+              min="0"
+              max="20"
+              placeholder="Enter dog age"
+              required
+            />
+          </div>
+          <!-- select id=dropdown option name-->
+          <div class="question">
+            <label for="dropdown">Choose dog size:</label>
+            <select name="dropdown" id="dropdown">
+              <option value="">--Please choose an option--</option>
+              <option value="small">Small Size</option>
+              <option value="medium">Medium Size</option>
+              <option value="large">Large Size</option>
+            </select>
+          </div>
+          <!-- radio name -->
+          <div class="question">
+            <p>Which description is more like your dog?</p>
+            <div>
+              <input
+                type="radio"
+                name="description"
+                id="confident-independence"
+                value="1"
+              />
+              <label for="confident-independence"
+                >Confident and independence</label
+              >
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="description"
+                id="neuroticism-dependence"
+                value="2"
+              />
+              <label for="neuroticism-dependence"
+                >Neuroticism and dependence</label
+              >
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="description"
+                id="optimism-adapt"
+                value="3"
+              />
+              <label for="optimism-adapt">Optimism and easy to adapt</label>
+            </div>
+          </div>
+          <!-- checkboxes value -->
+          <div class="question">
+            <p>
+              Does your dog have any of these behaviors?
+              <small>(Check all that apply)</small>
+            </p>
+            <div>
+              <input type="checkbox" value="destructive" id="destructive" />
+              <label for="destructive">Dog is destructive.</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="unfamiliar-people"
+                id="unfamiliar-people"
+              />
+              <label for="unfamiliar-people"
+                >Dog behaves aggressively towards unfamiliar people.
+              </label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="fearfully-groomed"
+                id="fearfully-groomed"
+              />
+              <label for="fearfully-groomed"
+                >Dog behaves fearfully when groomed.</label
+              >
+            </div>
+            <div>
+              <input type="checkbox" value="coveted-items" id="coveted-items" />
+              <label for="coveted-items"
+                >Dog aggressively guards coveted items.</label
+              >
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="nervous-or-fearful"
+                id="nervous-or-fearful"
+              />
+              <label for="nervous-or-fearful"
+                >Dog shows aggression when nervous or fearful.</label
+              >
+            </div>
+          </div>
+          <!-- textarea -->
+          <div class="question">
+            <label for="about-dog">Tell us more about your dog:</label>
+            <textarea
+              name="about-dog"
+              id="about-dog"
+              cols="30"
+              rows="10"
+              placeholder="Please include emotional and behavioral problems.  "
+            ></textarea>
+          </div>
+        </fieldset>
+        <fieldset class="information">
+          <legend>
+            <h2>Your Information</h2>
+          </legend>
+          <!-- input type=email id checked required placeholder-->
+          <div class="question">
+            <label for="name" id="name-label">Name:</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="question">
+            <label for="email" id="email-label">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="respond-message">
+            We will respond to messages within three working days.
+          </div>
+        </fieldset>
+        <!-- button id=submit -->
+        <button id="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
