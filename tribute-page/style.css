@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+  background-color: rgba(0,0,0,0.7);
+  background-image: url("./resource/background.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  color: #eee;
+
+}
+
+#main {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+#title {
+  margin-bottom: 5px;
+  font-size: 2.2rem;
+  color: #872112;
+  text-shadow: 1px 1px 0 #C69A44;
+  letter-spacing: 2px;
+}
+
+.title-box p {
+  margin-bottom: 40px;
+}
+
+
+#img-div {
+  margin: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border: 10px solid #eee;
+}
+
+
+#tribute-info {
+  margin: 50px 0;
+}
+
+#tribute-info h2 {
+  margin: 30px 0;
+  font-size: 2rem;
+  color: #872112;
+  text-shadow: 1px 1px 0 #C69A44;
+}
+
+#tribute-info ul {
+  text-align: left;
+  margin: auto;
+}
+
+#tribute-info li {
+  line-height: 1.7;
+  padding: 20px 5px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  box-shadow: 0 0 10px #000;
+}
+
+#tribute-info strong {
+  color: #eee;
+  display: block;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #eee;
+}
+
+#tribute-info .novels {
+  background-color: rgba(21, 96, 53,.9);
+}
+
+#tribute-info .movies {
+  background-color: rgba(41, 55, 97,.9);
+  
+}
+
+#tribute-info .side-story {
+  background-color: rgba(186, 143, 45,.9);
+}
+
+#tribute-quote {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: rgba(238, 238, 238,.9);
+  color: #000;
+  border: 2px solid #872112;
+}
+
+#tribute-quote p {
+  align-self: flex-start;
+  margin-bottom: 10px;
+}
+
+#tribute-quote cite {
+  align-self: flex-end;
+}
+
+#tribute-link {
+  color: #872112;
+  font-weight: bold;
+}
+
+#tribute-link:hover {
+  color: #C69A44;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1.3rem;
+  }
+
+  #title {
+    font-size: 4rem;
+  }
+
+  #tribute-info h2 {
+    font-size: 2.8rem;
+  }
+
+  #tribute-info ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #tribute-info strong {
+    font-size: 1.5rem;
+  }
+
+  #tribute-info li {
+    width: 50%;
+    /* max-width: 500px; */
+    margin: 0 40px 10px;
+    position: relative;
+    padding: 20px;
+  }
+
+  #tribute-info li:nth-child(even) {
+    align-self: flex-end;
+  }
+}

@@ -14,10 +14,14 @@ Preview image placed in each project
 Project | Subject | Link
 --- | --- | ---
 Survey Form | Dog Temperament Questionnaire | [https://codepen.io/NoelleKH/pen/QWrqrGO](https://codepen.io/NoelleKH/pen/QWrqrGO)
+<<<<<<< HEAD
 Tribute Page | |
 Technical Documentation Page | |
 Product Landing Page | |
 Personal Portfolio Webpage | |
+=======
+Tribute Page | Harry Potter | [https://codepen.io/NoelleKH/pen/wvjyoKd](https://codepen.io/NoelleKH/pen/wvjyoKd)
+>>>>>>> d8b7c36 (Add tribute page project)
 
 - **JavaScript Algorithms and Data Structures Projects**
 
