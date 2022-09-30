@@ -38,7 +38,6 @@ body {
   margin-bottom: 40px;
 }
 
-
 #img-div {
   margin: auto;
 }
@@ -48,7 +47,6 @@ img {
   max-width: 100%;
   border: 10px solid #eee;
 }
-
 
 #tribute-info {
   margin: 50px 0;
@@ -62,36 +60,151 @@ img {
 }
 
 #tribute-info ul {
-  text-align: left;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #tribute-info li {
-  line-height: 1.7;
-  padding: 20px 5px;
-  margin-bottom: 10px;
-  border: 1px solid #333;
+  width: 350px;
+  padding: 50px 30px;
+  margin: 10px 20px;
+  background-color: #fff;
+  color: #d4bd7d;
   box-shadow: 0 0 10px #000;
+  transform: scale(1);
+  transition: 0.7s;
 }
 
-#tribute-info strong {
-  color: #eee;
+#tribute-info li:hover {
+  transform: scale(1.1);
+}
+
+#tribute-info em {
   display: block;
-  font-size: 1.1rem;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
   border-bottom: 1px solid #eee;
 }
 
-#tribute-info .novels {
-  background-color: rgba(21, 96, 53,.9);
+#tribute-info a {
+  text-decoration: none;
+  color: #D7BA66;
 }
 
-#tribute-info .movies {
-  background-color: rgba(41, 55, 97,.9);
-  
+#tribute-info strong {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
 }
 
-#tribute-info .side-story {
-  background-color: rgba(186, 143, 45,.9);
+#tribute-info li:first-child {
+  background: linear-gradient(to bottom, #1C0F3F, #E69174);
+}
+
+#tribute-info li:nth-child(2) {
+  background: linear-gradient(to bottom, #0E1A04, #67AA60);
+}
+
+#tribute-info li:nth-child(3) {
+  background: linear-gradient(to bottom, #020A2B,#0591B9);
+}
+
+#tribute-info li:nth-child(4) {
+  background: linear-gradient(to bottom, #132A2A, #EF6A21);
+}
+
+#tribute-info li:nth-child(5) {
+  border: 5px solid #D6B669;
+  background: linear-gradient(to bottom, #1A5E9B,#2B334C);
+}
+
+#tribute-info li:nth-child(6) {
+  border: 5px solid #8B2924;
+  background: linear-gradient(to bottom,#325A76, #54544B);
+}
+
+#tribute-info li:nth-child(7) {
+  background: linear-gradient(to bottom, #A12320, #1D0301);
+}
+
+#tribute-info li:nth-child(8) {
+  border: 5px solid #6D4125;
+  background: linear-gradient(to bottom, #7C9A9E, #262A2B);
+}
+
+#tribute-info li:nth-child(9) {
+  background: linear-gradient(to bottom, #9F3720, #2F1311);
+}
+
+#tribute-info li:nth-child(10) {
+  border: 5px solid #4C3158;
+  background: linear-gradient(to bottom, #245B60, #2B6A4B);
+}
+
+#tribute-info li:nth-child(11) {
+  background: linear-gradient(to bottom, #232238, #756398);
+}
+
+#tribute-info li:nth-child(12) {
+  border: 5px solid #23464E;
+  background: linear-gradient(to bottom, #D3C06E, #606538);
+  color: #DEEAE8;
+}
+
+#tribute-info li:nth-child(12) a{
+  color: #DEEAE8;
+}
+
+#tribute-info li:nth-child(13) {
+  border: 5px solid #203D52;
+  background: linear-gradient(to bottom, #576A6F, #8F5B42);
+}
+
+#tribute-info li:nth-child(14) {
+  border: 5px solid #64615F;
+  background: linear-gradient(to bottom,#574632, #34322C);
+}
+
+
+#tribute-info li:nth-child(15) {
+  border: 5px solid #31312F;
+  background: linear-gradient(to bottom,#3C3E3B, #D26329);
+}
+
+#tribute-info li:nth-child(16) {
+  background: linear-gradient(to bottom, #BB8928, #DAD294);
+  color: #372928;
+}
+
+#tribute-info li:nth-child(16) a{
+  color: #372928;
+}
+
+#tribute-info li:nth-child(17) {
+  background: linear-gradient(to bottom, #38444F,#4D372F);
+}
+
+#tribute-info li:nth-child(18) {
+  border: 5px solid #C78B56;
+  background-color: #121A2E;
+}
+
+#tribute-info li:nth-child(19) {
+  background: linear-gradient(to bottom, #192B35,#7B96A4);
+}
+
+#tribute-info li:nth-child(20) {
+  border: 5px solid #29292C;
+  background-color: #04787F;
+}
+
+
+#tribute-info li:last-child {
+  border: 5px solid #FDF5D4;
+  background-color: #991003;
 }
 
 #tribute-quote {
@@ -133,26 +246,5 @@ img {
 
   #tribute-info h2 {
     font-size: 2.8rem;
-  }
-
-  #tribute-info ul {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #tribute-info strong {
-    font-size: 1.5rem;
-  }
-
-  #tribute-info li {
-    width: 50%;
-    /* max-width: 500px; */
-    margin: 0 40px 10px;
-    position: relative;
-    padding: 20px;
-  }
-
-  #tribute-info li:nth-child(even) {
-    align-self: flex-end;
   }
 }
