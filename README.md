@@ -10,18 +10,18 @@ Preview image placed in each project
 
 - **Responsive Web Design Project**
 
-| Project                      | Subject                       | Link                                                                               |
-| ---------------------------- | ----------------------------- | ---------------------------------------------------------------------------------- |
-| Survey Form                  | Dog Temperament Questionnaire | [https://codepen.io/NoelleKH/pen/QWrqrGO](https://codepen.io/NoelleKH/pen/QWrqrGO) |
-| Tribute Page                 | Harry Potter                  | [https://codepen.io/NoelleKH/pen/wvjyoKd](https://codepen.io/NoelleKH/pen/wvjyoKd) |
-| Technical Documentation Page |                               |
-| Product Landing Page         |                               |
-| Personal Portfolio Webpage   |                               |
+| Project                      | Subject                                                                  |
+| ---------------------------- | ------------------------------------------------------------------------ |
+| Survey Form                  | [Dog Temperament Questionnaire](https://codepen.io/NoelleKH/pen/QWrqrGO) |
+| Tribute Page                 | [Harry Potter](https://codepen.io/NoelleKH/pen/wvjyoKd)                  |
+| Technical Documentation Page |                                                                          |
+| Product Landing Page         |                                                                          |
+| Personal Portfolio Webpage   |                                                                          |
 
 - **JavaScript Algorithms and Data Structures Projects**
 
-| Project                    | Subject | Link |
-| -------------------------- | ------- | ---- |
+| Project                    | Subject |
+| -------------------------- | ------- |
 | Palindrome Checker         |         |
 | Roman Numeral Converter    |         |
 | Caesars Cipher             |         |
