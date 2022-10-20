@@ -14,7 +14,7 @@ Preview image placed in each project
 | ---------------------------- | ------------------------------------------------------------------------ |
 | Survey Form                  | [Dog Temperament Questionnaire](https://codepen.io/NoelleKH/pen/QWrqrGO) |
 | Tribute Page                 | [Harry Potter](https://codepen.io/NoelleKH/pen/wvjyoKd)                  |
-| Technical Documentation Page |                                                                          |
+| Technical Documentation Page | [Flexbox](https://codepen.io/NoelleKH/pen/BaxgORx?editors=1010)          |
 | Product Landing Page         |                                                                          |
 | Personal Portfolio Webpage   |                                                                          |
 
