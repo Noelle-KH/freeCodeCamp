@@ -69,14 +69,12 @@ input:checked ~ #navbar {
   display: block;
 }
 
-input:checked ~ #main-doc {
-  margin-left: 260px;
-}
-
 #main-doc {
   width: 75%;
   margin: auto;
   padding: 0 10px;
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 #main-doc label i{
@@ -94,6 +92,7 @@ input:checked ~ #main-doc {
 }
 
 .main-section h2 {
+  font-size: 2rem;
   margin: 25px 0;
 }
 
@@ -140,18 +139,18 @@ input:checked ~ #main-doc {
 
 #Reference p {
   background-color: #414143;
-  color: #ded8d4;
+  color: #DED8D4;
   padding: 30px;
   margin-bottom: 30px;
 }
 
 #Reference a {
-  color: #ded8d4;
+  color: #DED8D4;
 }
 
 #Reference a:hover {
   font-weight: 700;
-  color: #a67f78;
+  color: #A67F78;
 }
 
   /* use at least one media query */
@@ -162,7 +161,7 @@ input:checked ~ #main-doc {
   }
 
   #main-doc {
-    margin-left: 310px;
+    margin: 0 20px 0 330px;
   }
 
   #main-doc label i {
