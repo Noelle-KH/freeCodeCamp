@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <link rel="shortcut icon" href="./resource/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- Coffee Bean, image gallery, join newsletter -->
+    <!-- header element #header -->
+    <!-- image in header element #header-img -->
+    <!-- nav element in header element #nav-bar, should always be at the top of the viewport -->
+    <!-- at least three clickable elements inside the #nav-bar with the .nav-link -->
+    <!-- click .nav-link button will taken to the corresponding section of the page -->
+    <header id="header">
+      <div class="logo">
+        <a href="#"
+          ><img src="./resource/logo.png" alt="logo" id="header-img"
+        /></a>
+      </div>
+      <nav id="nav-bar">
+        <input type="checkbox" name="bar" id="bar" />
+        <ul>
+          <li><a href="#about" class="nav-link">ABOUT</a></li>
+          <li><a href="#blog" class="nav-link">BLOG</a></li>
+          <li><a href="#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+        <label for="bar"><i class="fa-solid fa-bars"></i></label>
+      </nav>
+    </header>
+    <main id="main">
+      <!-- an embedded product video #video -->
+      <video id="video" loop autoplay muted>
+        <source src="./resource/video.mp4" />
+      </video>
+      <section id="about">
+        <div class="about-title">
+          <h1>About Us</h1>
+          <h3>The best coffee shop</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            pariatur, similique omnis tenetur amet porro molestias dolore!
+            Earum, vitae mollitia optio eligendi, inventore qui consectetur
+            omnis quasi, expedita voluptatibus delectus!
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-card">
+            <h3>Best Beans<i class="fa-solid fa-mug-saucer"></i></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+              adipisci ducimus eum blanditiis maiores consectetur! Iste,
+              laboriosam corrupti tempora totam amet blanditiis, consectetur,
+              doloremque esse dignissimos quam unde sint fuga.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Quality Milk<i class="fa-solid fa-cow"></i></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+              adipisci ducimus eum blanditiis maiores consectetur! Iste,
+              laboriosam corrupti tempora totam amet blanditiis, consectetur,
+              doloremque esse dignissimos quam unde sint fuga.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Suitable Dessert<i class="fa-solid fa-cookie"></i></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+              adipisci ducimus eum blanditiis maiores consectetur! Iste,
+              laboriosam corrupti tempora totam amet blanditiis, consectetur,
+              doloremque esse dignissimos quam unde sint fuga.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="blog">
+        <div class="blog-title">
+          <h2>Blog</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eaque
+            aut magnam, dicta iusto commodi id amet possimus officiis deleniti.
+          </p>
+        </div>
+        <div class="blog-content">
+          <div class="blog-card">
+            <h3>Blog Title</h3>
+            <span class="daytime">2022-12-01</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis doloremque neque iste sed magnam dolor totam soluta
+              explicabo id, necessitatibus incidunt nisi dicta aliquam, nam
+              perspiciatis repellat eligendi ducimus expedita cumque? Explicabo
+              a dolorum quaerat exercitationem inventore eos consectetur soluta
+              alias accusantium, dignissimos sint, quam veritatis nihil
+              excepturi iusto? Minima?
+            </p>
+          </div>
+          <div class="blog-card">
+            <h3>Blog Title</h3>
+            <span class="daytime">2022-12-01</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis doloremque neque iste sed magnam dolor totam soluta
+              explicabo id, necessitatibus incidunt nisi dicta aliquam, nam
+              perspiciatis repellat eligendi ducimus expedita cumque? Explicabo
+              a dolorum quaerat exercitationem inventore eos consectetur soluta
+              alias accusantium, dignissimos sint, quam veritatis nihil
+              excepturi iusto? Minima?
+            </p>
+          </div>
+          <div class="blog-card">
+            <h3>Blog Title</h3>
+            <span class="daytime">2022-12-01</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis doloremque neque iste sed magnam dolor totam soluta
+              explicabo id, necessitatibus incidunt nisi dicta aliquam, nam
+              perspiciatis repellat eligendi ducimus expedita cumque? Explicabo
+              a dolorum quaerat exercitationem inventore eos consectetur soluta
+              alias accusantium, dignissimos sint, quam veritatis nihil
+              excepturi iusto? Minima?
+            </p>
+          </div>
+          <div class="blog-card">
+            <h3>Blog Title</h3>
+            <span class="daytime">2022-12-01</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis doloremque neque iste sed magnam dolor totam soluta
+              explicabo id, necessitatibus incidunt nisi dicta aliquam, nam
+              perspiciatis repellat eligendi ducimus expedita cumque? Explicabo
+              a dolorum quaerat exercitationem inventore eos consectetur soluta
+              alias accusantium, dignissimos sint, quam veritatis nihil
+              excepturi iusto? Minima?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="newsletter">
+        <!-- form element #form -->
+        <!-- with #form an input field with #email, have placeholder, uses HTML5 validation to confirm -->
+        <!-- with #form a submit input #submit, when click the email is submitted to a static page(use this mock URL: https://www.freecodecamp.com/email-submit) -->
+        <div class="newsletter-title">
+          <h2>Join Our Newsletter</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            itaque labore dolore dolores quidem iusto, sed blanditiis voluptates
+            officia laudantium possimus explicabo sapiente atque voluptatem
+            consectetur cumque. Expedita, porro repudiandae.
+          </p>
+        </div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label for="email"></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+          <input type="submit" id="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <footer id="contact">
+      <div class="opening-hour">
+        <h2>Come On In!</h2>
+        <div class="weekdays">
+          <h4>Weekdays</h4>
+          <p>08PM-12AM</p>
+        </div>
+        <div class="weekends">
+          <h4>Weekends</h4>
+          <p>12PM-02AM</p>
+        </div>
+      </div>
+      <div class="contact-info">
+        <h2>Contact Us</h2>
+        <div class="phone">
+          <h4>Phone</h4>
+          <p>+(000) 111 111 111</p>
+        </div>
+        <div class="email">
+          <h4>Email</h4>
+          <p>coffee-shop@email.com</p>
+        </div>
+        <div class="address">
+          <h4>Address</h4>
+          <p>somewhere</p>
+        </div>
+      </div>
+    </footer>
+    <!-- at least one media query, utilize flexbox at least once -->
+    <script
+      src="https://kit.fontawesome.com/9b3cbb68a9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
