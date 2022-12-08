@@ -12,10 +12,10 @@ Preview image placed in each project
 
 | Project                      | Subject                                                                  |
 | ---------------------------- | ------------------------------------------------------------------------ |
-| Survey Form                  | [Dog Temperament Questionnaire](https://codepen.io/NoelleKH/pen/QWrqrGO) |
-| Tribute Page                 | [Harry Potter](https://codepen.io/NoelleKH/pen/wvjyoKd)                  |
-| Technical Documentation Page | [Flexbox](https://codepen.io/NoelleKH/pen/BaxgORx?editors=1010)          |
-| Product Landing Page         |                                                                          |
+| Survey Form                  | [Dog Temperament Questionnaire](https://noelle-kh.github.io/freeCodeCamp/survey-form/index.html) |
+| Tribute Page                 | [Harry Potter](https://noelle-kh.github.io/freeCodeCamp/tribute-page/index.html)                  |
+| Technical Documentation Page | [Flexbox](https://noelle-kh.github.io/freeCodeCamp/technical-documentation/index.html)          |
+| Product Landing Page         | [Coffee Shop](https://noelle-kh.github.io/freeCodeCamp/product-landing-page/index.html)                                                                  |
 | Personal Portfolio Webpage   |                                                                          |
 
 - **JavaScript Algorithms and Data Structures Projects**
@@ -32,3 +32,4 @@ Preview image placed in each project
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
