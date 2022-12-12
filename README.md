@@ -10,23 +10,23 @@ Preview image placed in each project
 
 - **Responsive Web Design Project**
 
-| Project                      | Subject                                                                  |
-| ---------------------------- | ------------------------------------------------------------------------ |
+| Project                      | Subject                                                                                          |
+| ---------------------------- | ------------------------------------------------------------------------------------------------ |
 | Survey Form                  | [Dog Temperament Questionnaire](https://noelle-kh.github.io/freeCodeCamp/survey-form/index.html) |
-| Tribute Page                 | [Harry Potter](https://noelle-kh.github.io/freeCodeCamp/tribute-page/index.html)                  |
-| Technical Documentation Page | [Flexbox](https://noelle-kh.github.io/freeCodeCamp/technical-documentation/index.html)          |
-| Product Landing Page         | [Coffee Shop](https://noelle-kh.github.io/freeCodeCamp/product-landing-page/index.html)                                                                  |
-| Personal Portfolio Webpage   |                                                                          |
+| Tribute Page                 | [Harry Potter](https://noelle-kh.github.io/freeCodeCamp/tribute-page/index.html)                 |
+| Technical Documentation Page | [Flexbox](https://noelle-kh.github.io/freeCodeCamp/technical-documentation/index.html)           |
+| Product Landing Page         | [Coffee Shop](https://noelle-kh.github.io/freeCodeCamp/product-landing-page/index.html)          |
+| Personal Portfolio Webpage   |                                                                                                  |
 
 - **JavaScript Algorithms and Data Structures Projects**
 
-| Project                    | Subject |
-| -------------------------- | ------- |
-| Palindrome Checker         |         |
-| Roman Numeral Converter    |         |
-| Caesars Cipher             |         |
-| Telephone Number Validator |         |
-| Cash Register              |         |
+| Project                                                                                      |
+| -------------------------------------------------------------------------------------------- |
+| [Palindrome Checker](https://github.com/Noelle-KH/freeCodeCamp/tree/main/palindrome-checker) |
+| Roman Numeral Converter                                                                      |
+| Caesars Cipher                                                                               |
+| Telephone Number Validator                                                                   |
+| Cash Register                                                                                |
 
 ## Tech
 
