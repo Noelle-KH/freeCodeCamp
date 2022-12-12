@@ -20,9 +20,9 @@ Preview image placed in each project
 
 - **JavaScript Algorithms and Data Structures Projects**
 
-| Project                    | Solution                                                                             |
-| -------------------------- | ------------------------------------------------------------------------------------ |
-| Palindrome Checker         | [Solution]((https://github.com/Noelle-KH/freeCodeCamp/tree/main/palindrome-checker)) |
+| Project                    | Solution                                                                           |
+| -------------------------- | ---------------------------------------------------------------------------------- |
+| Palindrome Checker         | [Solution](https://github.com/Noelle-KH/freeCodeCamp/tree/main/palindrome-checker) |
 | Roman Numeral Converter    |
 | Caesars Cipher             |
 | Telephone Number Validator |
