@@ -20,16 +20,17 @@ Preview image placed in each project
 
 - **JavaScript Algorithms and Data Structures Projects**
 
-| Project                                                                                      |
-| -------------------------------------------------------------------------------------------- |
-| [Palindrome Checker](https://github.com/Noelle-KH/freeCodeCamp/tree/main/palindrome-checker) |
-| Roman Numeral Converter                                                                      |
-| Caesars Cipher                                                                               |
-| Telephone Number Validator                                                                   |
-| Cash Register                                                                                |
+| Project                    | Solution                                                                             |
+| -------------------------- | ------------------------------------------------------------------------------------ |
+| Palindrome Checker         | [Solution]((https://github.com/Noelle-KH/freeCodeCamp/tree/main/palindrome-checker)) |
+| Roman Numeral Converter    |
+| Caesars Cipher             |
+| Telephone Number Validator |
+| Cash Register              |
 
 ## Tech
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
