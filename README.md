@@ -24,7 +24,7 @@ Preview image placed in each project
 | -------------------------- | --------------------------------------------------------------------------------------- |
 | Palindrome Checker         | [Solution](https://github.com/Noelle-KH/freeCodeCamp/tree/main/palindrome-checker)      |
 | Roman Numeral Converter    | [Solution](https://github.com/Noelle-KH/freeCodeCamp/tree/main/roman-numeral-converter) |
-| Caesars Cipher             |
+| Caesars Cipher             | [Solution](https://github.com/Noelle-KH/freeCodeCamp/tree/main/caesars-cipher)          |
 | Telephone Number Validator |
 | Cash Register              |
 
